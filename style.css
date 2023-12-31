@@ -164,7 +164,7 @@ section .title::after{
 
 
 /* home section styling */
-.home{
+.home {
     display: flex;
     position: right;
     background: url("image.jpg") no-repeat center;
@@ -172,8 +172,11 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     background-size: cover;
+    background-size: 100% auto;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    background-color: #4F9AD1
 }
 .home .max-width{
 width: 100%;
